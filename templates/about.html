@@ -13,7 +13,7 @@
   <meta name="msapplication-tap-highlight" content="no">
 
   <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
-  <link href="./static/assets/favicon.ico" rel="icon">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 
   <title>Title page</title>
 
@@ -43,7 +43,7 @@
             <li><a href="./works.html" title="">02 : Works</a></li>
             <li><a href="./about.html" title="">03 : About me</a></li>
             <li><a href="./contact.html" title="">04 : Contact</a></li>
-            <li><a href="./components.html" title="">05 : Components</a></li>
+            <!-- <li><a href="./components.html" title="">05 : Components</a></li> -->
           </ul>
 
 
@@ -79,7 +79,7 @@
                       iaculis blandit. Cras ultrices hendrerit nisl.</p>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                  <img src="./assets/images/profil.jpg" class="img-responsive" alt="">
+                  <img src="./static/assets/images/profil.jpg" class="img-responsive" alt="">
                 </div>
               </div>
             </div>
